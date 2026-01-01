@@ -10,7 +10,7 @@ div[id^='Q_instascan_'] button {
     line-height: 40px;
     border: solid 1px rgba(255, 255, 255, 0.4);
 }
-div[id^='Q_instascan_'] button {
+.Q_scanning div[id^='Q_instascan_'] button {
     line-height: unset;
 }
 div[id^='Q_instascan_'] select {

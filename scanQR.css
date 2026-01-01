@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'scanQR';
+    src: url("data:application/x-font-ttf;charset=utf-8;base64,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") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+[class^="scanQR-icon-"], [class*=" scanQR-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'scanQR' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.scanQR-icon-image:before {
+    content: "\e90d";
+}
+.scanQR-icon-video-camera:before {
+    content: "\e914";
+}
+.scanQR-icon-spinner9:before {
+    content: "\e982";
+}
+
+.Q_scanQR_tool {
+    position: relative;
+}
+.Q_scanQR_tool i {
+    display: block;
+    position: absolute;
+    right: 10px;
+}
+.Q_scanQR_tool i:before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #055700;
+}
+.Q_scanQR_tool i.scanQR-icon-image {
+    top: 60px;
+}
+.Q_scanQR_tool i.scanQR-icon-video-camera,
+.Q_scanQR_tool i.scanQR-icon-spinner9 {
+    top: 10px;
+}
+.Q_scanQR_tool pre {
+    white-space: pre-wrap;
+}
+.Q_scanQR_tool .Q_scanQR_error {
+    position: absolute;
+    top: 0;
+    color: red;
+    padding: 0 5px;
+    margin: 0;
+    background: rgba(255, 255, 255, 0.5);
+}
+.Q_scanQR_tool .Q_scanQR_log,
+.Q_scanQR_tool .Q_scanQR_error:empty,
+.Q_scanQR_tool button[name=stop],
+.Q_scanQR_tool i.scanQR-icon-video-camera,
+.Q_scanQR_tool button[name=scanImage],
+.Q_scanQR_tool[data-ready][data-running] i.scanQR-icon-video-camera,
+.Q_scanQR_tool[data-ready][data-switchError] i.scanQR-icon-video-camera,
+.Q_scanQR_tool select[name=camera]:empty,
+.Q_scanQR_tool input[name=scanFile],
+.Q_scanQR_tool i.scanQR-icon-spinner9,
+.Q_scanQR_tool[data-scanning=image] i.scanQR-icon-spinner9,
+.Q_scanQR_tool[data-ready][data-scanning=image] i.scanQR-icon-spinner9 {
+    display: none;
+}
+.Q_scanQR_tool[data-noCamera] button[name=scanImage],
+.Q_scanQR_tool[data-ready][data-scanning=image] i.scanQR-icon-video-camera {
+    display: block;
+}
+.Q_scanQR_tool[data-ready] i.scanQR-icon-spinner9 {
+    display: block;
+}
+.Q_scanQR_tool .Q_scanQR_actions {
+    display: none;
+    padding: 5px;
+    text-align: center;
+}
+.Q_scanQR_tool .Q_scanQR_actions button {
+    margin: 0 auto;
+}
+.Q_scanQR_tool select[name=camera] {
+    display: block;
+    min-width: 300px;
+    margin: 0 auto;
+}
+.Q_mobile .Q_scanQR_tool select[name=camera] {
+    width: 100%;
+}
+
+.Q_scanQR_tool button[name=stop] {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+.Q_scanQR_tool button[name=stop] {
+    background: red;
+}
+@media (prefers-color-scheme: dark) {
+    .Q_scanQR_tool select option {
+        color: #000;
+    }
+    .Q_scanQR_tool select {
+        background-color: #3e3e3e;
+    }
+}
