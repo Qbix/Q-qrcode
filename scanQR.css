@@ -32,12 +32,12 @@
 .Q_scanQR_tool {
     position: relative;
 }
-.Q_scanQR_tool i {
+.Q_scanQR_tool i[class^="scanQR-icon-"] {
     display: block;
     position: absolute;
-    right: 10px;
+    bottom: 20px;
 }
-.Q_scanQR_tool i:before {
+.Q_scanQR_tool i[class^="scanQR-icon-"]:before {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,11 +49,11 @@
     color: #055700;
 }
 .Q_scanQR_tool i.scanQR-icon-image {
-    top: 60px;
+    right: 20px;
 }
 .Q_scanQR_tool i.scanQR-icon-video-camera,
 .Q_scanQR_tool i.scanQR-icon-spinner9 {
-    top: 10px;
+    right: 70px;
 }
 .Q_scanQR_tool pre {
     white-space: pre-wrap;
